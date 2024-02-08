@@ -3,11 +3,11 @@ import { Code, Security } from "@mui/icons-material";
 import ComputerIcon from '@mui/icons-material/Computer';
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
-    <div className="flex i-glow flex-row justify-start items-start white-blur-glass p-3 m-2 cursor-pointer rounded-2xl transition duration-500 ease-in-out transform hover:scale-105 hover:translate-y-2 hover:rotate-2">
+    <div className="flex i-glow flex-col  lg:flex-row justify-start items-center lg:items-start white-blur-glass p-3 m-2 cursor-pointer rounded-2xl transition duration-500 ease-in-out transform hover:scale-105 hover:translate-y-2 hover:rotate-2 gap-3">
         <div className={`w-10 h-10 rounded-full flex justify-center items-center ${color}`}>
             {icon}
         </div>
-        <div className="ml-5 flex flex-col flex-1">
+        <div className="flex flex-col flex-1 text-center lg:text-start">
             <h3 className="mt-2 text-white text-lg">{title}</h3>
             <p className="mt-1 text-white text-sm md:w-9/12">
                 {subtitle}
