@@ -17,7 +17,7 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
 );
 
 const Services = () => (
-    <div className="container flex flex-col items-center justify-center ">
+    <div className="container flex mt-5 flex-col items-center justify-center ">
         <div className="flex flex-col items-center justify-center md:flex-row md:p-20 py-12 px-4 w-full">
             <div className="flex-1 flex flex-col justify-start items-start text-center lg:text-start">
                 <h1 className="text-white text-3xl sm:text-5xl py-2  text-gradient w-full flex flex-col">
